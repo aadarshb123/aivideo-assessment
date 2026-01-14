@@ -52,3 +52,15 @@ src/
 server/
   index.js             # Express server, proxies Replicate API calls
 ```
+<img width="1919" height="993" alt="Screenshot 2026-01-14 at 4 54 40 PM" src="https://github.com/user-attachments/assets/2a03532b-441e-421f-8dab-430d8ab45b5f" />
+
+<img width="1920" height="975" alt="Screenshot 2026-01-14 at 4 55 03 PM" src="https://github.com/user-attachments/assets/4a1b4563-e4ce-4cc9-bbc3-823f8376ce67" />
+
+<img width="1920" height="988" alt="Screenshot 2026-01-14 at 4 57 05 PM" src="https://github.com/user-attachments/assets/9ec30c24-0732-4dc1-8506-444f7cd2a192" />
+
+<img width="1920" height="994" alt="Screenshot 2026-01-14 at 4 57 19 PM" src="https://github.com/user-attachments/assets/b880a4ef-fcc4-47a6-9368-a675fd77ad08" />
+
+
+
+
+

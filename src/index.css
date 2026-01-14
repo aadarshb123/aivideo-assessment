@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+:root {
+  --color-deep-black: #0D0D0D;
+  --color-dark-gray: #1A1A1A;
+  --color-hot-pink: #FF2D7C;
+  --color-white: #FFFFFF;
+  --color-light-gray: #A0A0A0;
+  --color-medium-gray: #2A2A2A;
+  --color-cyan: #00D1D1;
+  --color-card-hover: #252525;
+}
+
 body {
-  @apply bg-gray-900 text-white min-h-screen;
+  background-color: var(--color-deep-black);
+  color: var(--color-white);
+  min-height: 100vh;
 }

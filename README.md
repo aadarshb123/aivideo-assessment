@@ -52,6 +52,19 @@ src/
 server/
   index.js             # Express server, proxies Replicate API calls
 ```
+
+## Tradeoffs
+
+- **Replicate API Dependency**: Cold starts add 10-30s latency; per-request GPU costs; external availability dependency
+- **No Caching**: Identical images are re-processed every upload, wasting cost and time
+- **All Masks in Memory**: Loading 50+ masks works for typical images but risks issues on complex scenes
+
+## Next Steps
+
+- **Multi-Select**: Click to lock selection, Shift+click to add masks, enabling composite selections
+- **Export**: Download selected mask(s) as PNG with transparent background
+- **Mask Caching**: Hash images and store results in Redis/S3 to skip re-processing duplicates
+
 <img width="1919" height="993" alt="Screenshot 2026-01-14 at 4 54 40 PM" src="https://github.com/user-attachments/assets/2a03532b-441e-421f-8dab-430d8ab45b5f" />
 
 <img width="1920" height="975" alt="Screenshot 2026-01-14 at 4 55 03 PM" src="https://github.com/user-attachments/assets/4a1b4563-e4ce-4cc9-bbc3-823f8376ce67" />
